@@ -125,6 +125,7 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Question1_Coordinate .aspx" />
+    <Content Include="Question2_WeeklyCalendar.aspx" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -215,6 +216,13 @@
     </Compile>
     <Compile Include="Question1_Coordinate .aspx.designer.cs">
       <DependentUpon>Question1_Coordinate .aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Question2_WeeklyCalendar.aspx.cs">
+      <DependentUpon>Question2_WeeklyCalendar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Question2_WeeklyCalendar.aspx.designer.cs">
+      <DependentUpon>Question2_WeeklyCalendar.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
