@@ -10,7 +10,7 @@
 namespace BonusAssignment {
     
     
-    public partial class WebForm3 {
+    public partial class WebForm1 {
         
         /// <summary>
         /// form1 control.
@@ -22,22 +22,22 @@ namespace BonusAssignment {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// tickets_amount control.
+        /// xvalue control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tickets_amount;
+        protected global::System.Web.UI.WebControls.TextBox xvalue;
         
         /// <summary>
-        /// above_zero_validator control.
+        /// yvalue control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CompareValidator above_zero_validator;
+        protected global::System.Web.UI.WebControls.TextBox yvalue;
         
         /// <summary>
         /// submit control.
@@ -49,12 +49,12 @@ namespace BonusAssignment {
         protected global::System.Web.UI.WebControls.Button submit;
         
         /// <summary>
-        /// purchase_summary control.
+        /// quadrant_summary control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl purchase_summary;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl quadrant_summary;
     }
 }
