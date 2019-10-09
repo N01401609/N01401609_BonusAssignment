@@ -26,13 +26,15 @@ namespace BonusAssignment
                     if (Xvalue > 0 && Yvalue >0)
                     {
                         QuadrantMsg = "Your cordinates are in quadrant 1 ";
-
+                    //QUADRANT 2
                     } else if (Xvalue < 0 && Yvalue > 0)
                     {
                         QuadrantMsg = "Your cordinates are in quadrant 2 ";
+                    //QUADRANT 3
                     } else if (Xvalue < 0 && Yvalue < 0)
                     {
                         QuadrantMsg = "Your cordinates are in quadrant 3 ";
+                    //QUADRANT 4
                     } else if (Xvalue > 0 && Yvalue < 0)
                     {
                         QuadrantMsg = "Your cordinates are in quadrant 4 ";

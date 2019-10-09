@@ -31,6 +31,15 @@ namespace BonusAssignment {
         protected global::System.Web.UI.WebControls.TextBox xvalue;
         
         /// <summary>
+        /// x_not_zero control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CompareValidator x_not_zero;
+        
+        /// <summary>
         /// yvalue control.
         /// </summary>
         /// <remarks>
@@ -38,6 +47,15 @@ namespace BonusAssignment {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox yvalue;
+        
+        /// <summary>
+        /// y_not_zero control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CompareValidator y_not_zero;
         
         /// <summary>
         /// submit control.
