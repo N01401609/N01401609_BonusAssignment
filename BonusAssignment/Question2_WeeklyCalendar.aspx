@@ -4,14 +4,14 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Weekly Calendar                                                             </title>
+    <title>Weekly Calendar</title>
 </head>
 <body>
     <form id="form1" runat="server">
         <div>
             <h1>Your Weekly Calendar</h1>
             <p> Please select the days of the week you work on</p>
-            <asp:CheckBoxList runat="server" ID="work_days" >
+            <asp:CheckBoxList runat="server" ID="input_workdays" >
                 <asp:ListItem Value="Monday">Monday</asp:ListItem>
                 <asp:ListItem Value="Tuesday">Tuesday</asp:ListItem>
                 <asp:ListItem Value="Wednesday">Wednesday</asp:ListItem>

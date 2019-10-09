@@ -22,7 +22,7 @@ namespace BonusAssignment
                     //VARIABLE DECLARATION
                     string DayofTheWeek;// string to determine what day of the week is the given date
                     int NumberDayofTheWeek; //int that represents the day of the week i.e Monday = 0
-                    string AddtoCalendar = ""; // string to store every line in the calendar
+                    string AddtoCalendar = ""; // string to store every line of the calendar
                     string Activity = ""; //string writes whether it is time to work or have fun 
                     List<string> ListDaysofTheWeek = new List<string>();//List stores days of the week
                     ListDaysofTheWeek.Add("Monday");
@@ -36,14 +36,14 @@ namespace BonusAssignment
                   
                     AddtoCalendar += work_schedule_summary.InnerHtml = "Your October schedule is as follows <br>";
 
-                    //TASK MATCH THE DAYS OF THE WEEK WITH THE GIVEN DAYS OF THE MONTH
+                    //TASK: MATCH THE DAYS OF THE WEEK WITH THE GIVEN DAYS OF THE MONTH
                     for (int i = 1; i <= 31; i++)
                     {
                         NumberDayofTheWeek = i % 7;
                         DayofTheWeek = ListDaysofTheWeek.ElementAt(NumberDayofTheWeek);
 
                         //TASK: DETERMINE THE DAYS THAT ARE WORK DAYS
-                        foreach (ListItem day in work_days.Items)
+                        foreach (ListItem day in input_workdays.Items)
                         {
                             if(day.Value == DayofTheWeek)
                             {

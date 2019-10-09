@@ -14,7 +14,7 @@
             <div>
                 <asp:TextBox runat="server" ID="tickets_amount" ></asp:TextBox>
                 <asp:RequiredFieldValidator runat="server" EnableClientScript="true" ControlToValidate="tickets_amount" ErrorMessage="Please enter a value"></asp:RequiredFieldValidator>
-                <asp:CompareValidator runat="server" ID="above_zero_validator" controltovalidate="tickets_amount" valuetocompare="0" operator="GreaterThan" type="Integer" errormessage="The ticket amount should be above zero" ></asp:CompareValidator>
+                <asp:CompareValidator runat="server" ID="above_zero_validator" Controltovalidate="tickets_amount" Valuetocompare="0" Operator="GreaterThan" Type="Integer" Errormessage="The ticket amount should be above zero" ></asp:CompareValidator>
             </div>
             <asp:Button runat="server" ID="submit" Text="submit" />
             <div id="purchase_summary" runat="server"></div>

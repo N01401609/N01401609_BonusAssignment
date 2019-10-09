@@ -19,8 +19,8 @@ namespace BonusAssignment
                 {
                     
                     //DECLARATION OF VARIABLES
-                    int TicketsAmount = Convert.ToInt32(tickets_amount.Text); //Ticket amount inputed by user
-                    int TypeofBundle = 1; // type of bundle by default is 1 
+                    int TicketsAmount = Convert.ToInt32(tickets_amount.Text); //ticket amount inputed by user
+                    int TypeofBundle = 1; // type of bundle (by default is 1) 
                     string PrintBundle = "";//The string that will be printed to the screen
 
                     //PrintBundle += purchase_summary.InnerHtml = "You ordered " + TicketsAmount + " ticket(s)<br>";

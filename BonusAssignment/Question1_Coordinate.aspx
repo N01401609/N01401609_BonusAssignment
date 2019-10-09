@@ -15,13 +15,13 @@
                 <label>x-value</label>
                 <asp:TextBox runat="server" ID="xvalue" ></asp:TextBox>
                 <asp:RequiredFieldValidator runat="server" EnableClientScript="true" ControlToValidate="xvalue" ErrorMessage="Please enter a value"></asp:RequiredFieldValidator>
-                <asp:CompareValidator runat="server" ID="x_not_zero" controltovalidate="xvalue" valuetocompare="0" operator="NotEqual" type="Integer" errormessage="the x value should not be zero" ></asp:CompareValidator>
+                <asp:CompareValidator runat="server" ID="x_not_zero" Controltovalidate="xvalue" Valuetocompare="0" Operator="NotEqual" Type="Integer" Errormessage="the x value should not be zero" ></asp:CompareValidator>
             </div>
             <div>
                 <label>y-value</label>
                 <asp:TextBox runat="server" ID="yvalue" ></asp:TextBox>
                 <asp:RequiredFieldValidator runat="server" EnableClientScript="true" ControlToValidate="yvalue" ErrorMessage="Please enter a value"></asp:RequiredFieldValidator>
-                <asp:CompareValidator runat="server" ID="y_not_zero" controltovalidate="yvalue" valuetocompare="0" operator="NotEqual" type="Integer" errormessage="The y value should not be zero" ></asp:CompareValidator>
+                <asp:CompareValidator runat="server" ID="y_not_zero" Controltovalidate="yvalue" Valuetocompare="0" Operator="NotEqual" Type="Integer" Errormessage="The y value should not be zero" ></asp:CompareValidator>
             </div>
             <asp:Button runat="server" ID="submit" Text="submit" />
             <div id="quadrant_summary" runat="server"></div>
